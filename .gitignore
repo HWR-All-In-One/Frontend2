@@ -2,7 +2,7 @@
 ### Node template
 # Logs
 /logs
-*.log
+*.log*
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
@@ -95,3 +95,8 @@ sw.*
 
 # Visual Studio Code
 .vscode/*
+
+# Additional
+.output
+.nitro
+dist
