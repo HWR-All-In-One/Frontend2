@@ -1,6 +1,6 @@
 <template>
-    <v-app>
-        <v-navigation-drawer class="bg-grey" permanent miniVariant mini-variant-width="5.5rem" fixed app>
+    <v-app id="inspire">
+        <v-navigation-drawer model-value class="pt-4" color="grey-lighten-3" permanent>
             <v-list class="navbar">
                 <div class="logo">
                     <NuxtLink class="home-link" to="/">
@@ -8,16 +8,12 @@
                     </NuxtLink>
                 </div>
                 <v-list-item v-for="(item, i) in items" :key="i" :to="item.to" router exact>
-                    <v-list-item-action>
-                        <v-icon class="bg-red">
-                            {{ item.icon }}
-                        </v-icon>
-                    </v-list-item-action>
-                    <v-list-item-content>
-                        <v-list-item-title>
-                            {{ item.title }}
-                        </v-list-item-title>
-                    </v-list-item-content>
+                    <v-icon size="x-large">
+                        {{ item.icon }}
+                    </v-icon>
+                    <v-list-item>
+                        {{ item.title }}
+                    </v-list-item>
                 </v-list-item>
             </v-list>
             <div class="theme-toggle">
@@ -29,9 +25,12 @@
                 </v-list-item>
             </div>
         </v-navigation-drawer>
-        <div>
-            <slot />
-        </div>
+
+        <v-main>
+            <div>
+                <slot />
+            </div>
+        </v-main>
     </v-app>
 </template>
 
@@ -64,24 +63,22 @@ export default {
 </script>
 
 <style lang="scss">
-/* Dark Theme Styling */
-/*
+/* Light and dark props have been removed. */
 .theme--dark.v-navigation-drawer:not(.v-navigation-drawer--floating) .v-navigation-drawer__border {
-    background-color: $color-red;
+    background-color: #d50b2e;
 }
-*/
 
-/* Light Theme Styling */
-/*
 .theme--light.v-navigation-drawer:not(.v-navigation-drawer--floating) .v-navigation-drawer__border {
-    background-color: $color-red;
+    background-color: #d50b2e;
 }
-*/
 
-/* General Mobile Styling */
+/* Mobile Styling */
 
 
-/* General Desktop Styling */
+/* Tablet Styling */
+
+
+/* Desktop Styling */
 .theme.v-app-bar.v-toolbar.v-sheet {
     background-color: transparent;
 }
@@ -89,12 +86,6 @@ export default {
 .home-link {
     text-decoration: none;
 }
-
-/*
-.v-navigation-drawer {
-    background-color: #363636;
-}
-*/
 
 .v-list {
     max-height: 100vh;

@@ -66,7 +66,7 @@
 </script>
 
 <style lang="scss">
-/* Dark Theme Styling */
+/* Light and dark props have been removed. */
 .theme--dark.v-label {
     color: #272727;
 }
@@ -75,13 +75,13 @@
     color: #ffffff !important;
 }
 
-/* Light Theme Styling */
+/* Mobile Styling */
 
 
-/* General Mobile Styling */
+/* Tablet Styling */
 
 
-/* General Desktop Styling */
+/* Desktop Styling */
 .create-account-panel {
     width: 30rem;
     height: 46.5rem;

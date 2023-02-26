@@ -191,7 +191,7 @@ export default {
 </script>
 
 <style lang="scss">
-/* Dark Theme Styling */
+/* Light and dark props have been removed. */
 .theme--dark .schedule .col {
     background-color: #272727;
 }
@@ -204,16 +204,17 @@ export default {
     background-color: #272727;
 }
 
-
-/* Light Theme Styling */
 .theme--light .schedule .col {
     background-color: #272727;
 }
 
-/* General Mobile Styling */
+/* Mobile Styling */
 
 
-/* General Desktop Styling */
+/* Tablet Styling */
+
+
+/* Desktop Styling */
 .schedule .col {
     border-radius: 15px;
     border: 1px solid #d50b2e;

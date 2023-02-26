@@ -1,3 +1,4 @@
+
 <template>
     <div>
         <v-list class="schedule-list">
@@ -630,25 +631,15 @@ export default {
 </script>
 
 <style lang="scss">
-/* Dark Theme Styling */
-/* 
-.theme--dark {
+/* Light and dark props have been removed. */
 
-}
-*/
+/* Mobile Styling */
 
 
-/* Light Theme Styling */
-/*
-.theme--light {
-    
-}
-*/
-
-/* General Mobile Styling */
+/* Tablet Styling */
 
 
-/* General Desktop Styling */
+/* Desktop Styling */
 .schedule-list {
     padding: 0;
     margin-bottom: 1.5rem;

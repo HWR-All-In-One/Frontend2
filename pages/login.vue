@@ -53,15 +53,14 @@ export default {
 }
 </script>
 
-<style>
-/* Dark Theme Styling */
+<style lang="scss">
+/* Light and dark props have been removed. */
+
+/* Mobile Styling */
 
 
-/* Light Theme Styling */
+/* Tablet Styling */
 
 
-/* General Mobile Styling */
-
-
-/* General Desktop Styling */
+/* Desktop Styling */
 </style>

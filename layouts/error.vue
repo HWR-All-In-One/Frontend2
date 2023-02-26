@@ -39,6 +39,15 @@ export default {
 </script>å
 
 <style lang="scss">
+/* Light and dark props have been removed. */
+
+/* Mobile Styling */
+
+
+/* Tablet Styling */
+
+
+/* Desktop Styling */
 h1 {
     font-size: 20px;
 }

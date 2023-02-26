@@ -36,7 +36,7 @@
 </template>
 
 <style lang="scss">
-/* Dark Theme Styling */
+/* Light and dark props have been removed. */
 .theme--dark.v-label {
     color: #121212;
 }
@@ -45,13 +45,13 @@
     border: 1px solid #00ff37 !important;
 }
 
-/* Light Theme Styling */
+/* Mobile Styling */
 
 
-/* General Mobile Styling */
+/* Tablet Styling */
 
 
-/* General Desktop Styling */
+/* Desktop Styling */
 .login-panel {
     width: 30rem;
     height: 35rem;

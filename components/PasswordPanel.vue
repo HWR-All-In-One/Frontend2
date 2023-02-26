@@ -13,7 +13,7 @@
             </h3>
         </div>
         <div class="password-panel-middle">
-            <v-text-field class="password-input" hide-details single-linenpm filled outlined label="Passwort"
+            <v-text-field class="password-input" hide-details single-linenpm filled variant="outlined" label="Passwort"
                 hint="Dein Passwort von Moodle">
             </v-text-field>
             <a class="forgot-password-link" href="/login/forget/fpassword">
@@ -21,10 +21,10 @@
             </a>
         </div>
         <div class="password-panel-bottom">
-            <v-btn class="create-account-button" secondary to="/registration">
+            <v-btn class="create-account-button" to="/registration">
                 Konto erstellen
             </v-btn>
-            <v-btn class="continue-to-userspace-button">
+            <v-btn class="continue-to-userspace-button" to="/account">
                 Bestätigen
             </v-btn>
         </div>
@@ -32,16 +32,15 @@
 </template>
 
 <style lang="scss">
-/* Dark Theme Styling */
+/* Light and dark props have been removed. */
+
+/* Mobile Styling */
 
 
-/* Light Theme Styling */
+/* Tablet Styling */
 
 
-/* General Mobile Styling */
-
-
-/* General Desktop Styling */
+/* Desktop Styling */
 .password-panel {
     width: 40%;
     height: 80%;

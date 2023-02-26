@@ -14,7 +14,7 @@
             <v-row class="info-button-row" no-gutters>
                 <v-col class="grow"> </v-col>
                 <v-col class="shrink">
-                    <v-btn class="info-button" outlined color="info" >
+                    <v-btn class="info-button" variant="outlined" color="info" >
                         Kontakt
                     </v-btn>
                 </v-col>
@@ -31,16 +31,15 @@
 </template>
 
 <style lang="scss">
-/* Dark Theme Styling */
+/* Light and dark props have been removed. */
+
+/* Mobile Styling */
 
 
-/* Light Theme Styling */
+/* Tablet Styling */
 
 
-/* General Mobile Styling */
-
-
-/* General Desktop Styling */
+/* Desktop Styling */
 .my-4.info {
     opacity: 0.22;
 }

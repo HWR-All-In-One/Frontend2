@@ -30,18 +30,19 @@
 </template>
 
 <style lang="scss">
-/* Dark Theme Styling */
+/* Light and dark props have been removed.
 .theme--dark.v-treeview {
     color: #121212;
 }
+*/
 
-/* Light Theme Styling */
-
-
-/* General Mobile Styling */
+/* Mobile Styling */
 
 
-/* General Desktop Styling */
+/* Tablet Styling */
+
+
+/* Desktop Styling */
 .password-recovery-panel {
     width: 40%;
     height: 80%;
